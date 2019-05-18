@@ -66,7 +66,7 @@ class ReactVisNext extends React.PureComponent {
 
 ReactVisNext.getInitialProps = async function() {
     const finFetch = await fetch(
-        "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=demo",
+        "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=E9W8LZBTXVYZ31IO",
         { method: "GET" }
     )
 
