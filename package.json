@@ -1,9 +1,10 @@
 {
-  "name": "create-next-example-app",
+  "name": "react-vis-next",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT",
+    "now-build": "next build"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
